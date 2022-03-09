@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.link{ text-decoration: none; }
+
+/* Colores de los textos */
+.txt-blanco{ color: #fff; }
+
+.txt-oscuro{ color: #555863; }
+
+.txt-gris{ color: #B9B9B9; }
+
+.txt-verde{ color: #159F23; }
+
+.txt-amarillo{ color: #EBEB20; }
+
+/* colores de fondo */
+.bg-dark{ background-color:#22302F; }
+.bg-dark-claro{ background-color:#273236; }
+
+.bg-amarillo{ background-color: #EBEB20; }
+
+.bg-verde{ background-color: #159F23; }
+
+/* colores de iconos */
+.icono-blanco{ color: white; }
+
+.contenedor-header-contacto {
+    background-image: url('./img/perromirandoalfrente.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25% 0;
+    height: 250px;
+}
+
+.contenedor-header-inicio .navbar,
+.contenedor-header-productos .navbar,
+.contenedor-header-nosotros .navbar{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    width: 100%;
+    position: fixed;
+    top: -1px;
+    z-index: 99999;
+    font-weight: 100;
+    box-shadow: -1px 2px 3px 0px #0000004a;
+    font-weight: 400;
+}
+
+.contenedor-header-productos .titulo-principal{
+    margin-top: 51px;
+}
+
+.contenedor-header-inicio .logo-movil label,
+.contenedor-header-nosotros .logo-movil label,
+.contenedor-header-productos .logo-movil label
+{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.contenedor-header-inicio .logo-movil span,
+.contenedor-header-nosotros .logo-movil span,
+.contenedor-header-productos .logo-movil span
+{
+    color: #363C47;
+}
+
+.contenedor-header-inicio .info-principal,
+.contenedor-header-nosotros .info-principal,
+.contenedor-header-productos .info-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.contenedor-header-inicio .info-principal .row,
+.contenedor-header-nosotros .info-principal .row,
+.contenedor-header-productos .info-productos .row{
+    margin-top: 52.35px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: rgba(243, 243, 243, 0.875);
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
+    font-weight: 500;
+}
+
+.redes-text-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.redes-contenedor-icono{
+    width: 100px;
+    border-radius: 30px;
+    border: solid 1px #fff;
+    padding: 5px 12px;
+    text-align: center;
+}
+.text-redes{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #fff;
+}
+.btn-amarillo{
+    background-color: #EBEB20;
+    color:#273236;
+    font-weight: 500;
+    border-radius: 25px;
+}
+
+.btn-verde{
+    background-color: #159F23;
+    color:#ffffff;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 6px 25px;
+    box-shadow: -2px 4px 7px 0px #393b3a8c;
+}
+
+.btn-card-verde{
+    background-color: #159F23;
+    color:#ffffff;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 6px 10px;
+    box-shadow: -2px 4px 7px 0px #393b3a8c;
+    font-size: 15px;
+}
+
+.card-producto{
+    padding: 10px;
+}
+
+.card-producto .card-body{
+    padding: 0;
+}
+
+.card-sombra{
+    box-shadow: -2px 4px 9px 0px #cfcfcf8c;
+}
+
+.card-producto-img{
+    max-width: 320px;
+    max-height: 160px;
+}
+
+.card-producto-nombre{
+    font-size: 20px;
+    font-weight: 500;
+}
+.card-producto-precio{
+    font-size: 25px;
+    font-weight: 700;
+}
+.card-footer{
+    border-top: none;
+    background-color: #fff;
+}
+
+.titulo-principal{
+    font-size: 35px;
+}
+
+.titulo-secundario{
+    font-size: 25px;
+}
+
+.titulo-ligero{
+    font-weight: 400;
+}
+
+.titulo-borde{
+    padding-bottom: 5.5px;
+    border-bottom: 2px #424141 solid;
+}
+
+.titulo-borde span{
+    padding-bottom: 5px;
+    border-bottom: 2px #EBEB20 solid;
+}
+.lista-navegacion li{
+    list-style: none;
+}
+.lista-navegacion span:first-child{
+    display: inline-block;
+    width: 120px;
+}
+.form-border-radius{
+    border-radius: 25px;
+    border: solid 1px #159F23;
+    box-shadow: 0px 0px 3px 0px #21ff00;
+}
+.cart-search-top{
+    position: relative;
+}
+.cart-search-top i{
+    position: absolute;
+    right: 14px;
+    top: 10px;
+    font-size: 18px
+}
+.contenedor-carousel{
+    margin-top: 59.57px;
+}
+.carousel-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    background-color: #22302F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+.carousel-img-edificio{
+    background-image: url(./img/reyhani-edificio.jfif);
+}
+
+.carousel-img-01{
+    background-image: url(./img/img-06.jpeg);
+}
+
+.carousel-img-02{
+    background-image: url(./img/img-02.jpeg);
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    background-size: 100% 100%;
+    height: 80px !important;
+    width: 80px !important;
+}
+
+.seccion{
+    padding: 40px 0px;
+}
+
+.producto-principal-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    background-color: #22302F;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.producto-principal-img-01{
+    background-image: url(./img/img-05.jpeg);
+}
+
+.producto-principal-img-02{
+    background-image: url(./img/img-02.jpeg);
+}
+
+@media( min-width: 576px ){
+    .carousel-img{
+        height: 500px;
+        padding: 0 90px;
+    }
+    .card-producto-img{
+        max-width: 320px;
+        max-height: 110px;
+    }
+}
+
+@media( min-width: 768px ){
+    .carousel-img{
+        height: 500px;
+        padding: 0 90px;
+    }
+    .card-producto-img{
+        max-width: 350px;
+        max-height: 150px;
+    }
+}
+
+@media( min-width: 992px ){
+    .contenedor-carousel{
+        margin-top: 0;
+    }
+    .card-producto-img{
+        max-width: 350px;
+        max-height: 150px;
+    }
+}
+
+@media( min-width: 1200px ){
+    #navBar{
+        position: sticky;
+    }
+    .carousel-img{
+        height: 700px;
+        padding: 0 140px;
+    }
+    .carousel-img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        background-color: #22302F;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .btn-xl-verde{
+        background-color: #159F23;
+        color:#ffffff;
+        font-weight: 500;
+        font-size: 20px;
+        border-radius: 25px;
+        padding: 6px 25px;
+        box-shadow: -2px 4px 7px 0px #393b3a8c;
+    }
+    .titulo-principal{
+        font-size: 65px;
+    }
+    
+    .titulo-secundario{
+        font-size: 35px;
+    }
+}
+
+@media( min-width: 1300px ){
+    .carousel-img{
+        height: 550px;
+    }
+    .card-producto-img{
+        max-width: 350px;
+        max-height: 170px;
+    }
+}
+
+@media( min-width: 1600px ){
+    .carousel-img{
+        height: 750px;
+    }
+}
+
+.btn-verde:hover, 
+.btn-card-verde:hover, 
+.btn-xl-verde:hover, 
+a.nav-link:hover{
+    color:#ffff00!important;
+}
