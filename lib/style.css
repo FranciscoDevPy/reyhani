@@ -359,3 +359,159 @@
 a.nav-link:hover{
     color:#ffff00!important;
 }
+
+
+
+#home {
+    background-image: url(./img/reyhani-edificio.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+    height: 27vh;
+    
+}
+
+#success{
+
+    width: min-content;
+    border-radius: 25px;
+    border: solid 1px #159F23;
+    box-shadow: 0px 0px 3px 0px #21ff00;
+    border-left: 1rem;     
+}
+#circle{
+    position: relative;
+    top: -30px;
+    left: 20px;
+    display:flex;
+    height: 150px;
+    width: 150px;
+    border-radius: 150%;
+     background-color: #ecdf91;
+     
+}
+
+#bg-text{
+    background-color: #f3ebbc;
+    width: 900px; 
+    
+}
+#nosotros-verde{
+    position: relative;
+    top: -30px;
+    left: 20px;
+    display:flex;
+    height: 150px;
+    width: 150px;
+    border-radius: 150%;
+     background-color: #89f773;
+}
+#bg-text-2{
+    background-color: #b9ffb7;
+    width: 900px;
+}
+
+#sobre-nosotros{
+    background-image: url(./img/reyhani-edificio.jfif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;
+    height: 400px;
+    margin-bottom: -2rem;
+}
+
+#nosotros,
+#historia, h3{
+   text-align: center;
+  justify-content: center;
+  align-items: center;
+ 
+}
+#bg-gradient{
+    
+background: #f2ff3c;
+background: linear-gradient(132deg, #ebfc00 0%, #24790a 66%);
+
+}
+.contact-map{
+    width: 100%;
+    height: 300px;
+    flex: 50%;
+    text-align: center;
+}
+.contact-map iframe{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+
+@media (max-width: 575px) {
+    #bg-text{
+       display: flex;
+       flex-direction: column;
+       width: 500px;   
+     }
+     #bg-text-2{
+        display: flex;
+        flex-direction: column;
+        width: 500px;   
+      }
+}
+@media (max-width: 495px) {
+    #bg-text{
+        display: flex;
+        flex-direction: column;
+        width: 400px;   
+        font-size: 70px;
+        margin: auto;
+     }
+     #bg-text-2{
+        display: flex;
+        flex-direction: column;
+        width: 400px;   
+        font-size: 70px;
+        margin: auto;
+           
+      }
+      
+}
+
+@media (max-width: 420px) {
+    #bg-text{
+        display: flex;
+        flex-direction: column;
+        width: 300px;   
+        font-size: 70px;
+        margin: auto;
+     }
+     #bg-text-2{
+        display: flex;
+        flex-direction: column;
+        width: 300px;   
+        font-size: 70px;
+        margin: auto;
+           
+      }
+}
+
+@media (max-width: 495px) {
+    #container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax
+        (250px, 1fr));
+        grid-gap: 20px;
+    }   
+    .box{
+        height: 200px;
+        position: absolute;
+    }
+}
+
+#final-border{
+    width: min-content;
+    border-radius: 25px;
+    border: solid 1px #159F23;
+    box-shadow: 0px 0px 3px 0px #21ff00;
+    border-left: 1rem;     
+}
