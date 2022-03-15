@@ -10,6 +10,8 @@
 
 .txt-oscuro{ color: #555863; }
 
+.txt-negro{ color: #242424; }
+
 .txt-gris{ color: #B9B9B9; }
 
 .txt-verde{ color: #159F23; }
@@ -145,6 +147,7 @@
 
 .card-producto .card-body{
     padding: 0;
+    cursor: pointer;
 }
 
 .card-sombra{
@@ -234,7 +237,7 @@
 }
 
 .carousel-img-02{
-    background-image: url(./img/img-02.jpeg);
+    background-image: url(./img/img-01.jpeg);
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -266,7 +269,12 @@
 }
 
 .producto-principal-img-02{
-    background-image: url(./img/img-02.jpeg);
+    background-image: url(./img/img-01.jpeg);
+}
+
+.seccion-llamada{
+    background: linear-gradient(132deg, #ebfc00 0%, #30a60d 66%);
+    padding: 25px 0;
 }
 
 @media( min-width: 576px ){
@@ -444,7 +452,6 @@ background: linear-gradient(132deg, #ebfc00 0%, #24790a 66%);
     height: 100%;
     padding: 5px;
 }
-
 
 @media (max-width: 575px) {
     #bg-text{
