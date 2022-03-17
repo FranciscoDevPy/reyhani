@@ -112,76 +112,84 @@
                 </div>
             </div>
         </nav>
-        
-        
-    </header>
-
-    <div class="img-fluid home seccion">
-        <div class="container">
-            <div class="row">
-                <div class="jumbotron bg-jumbotron ">
-                    <h2 class="text-center text-white fw-bold py-5 
-                    me-4 m-auto fs-1">Contacto</h2>             
-                </div>    
+        <div class="img-fluid home seccion">
+            <div class="container">
+                <div class="row">
+                    <div class="jumbotron bg-jumbotron ">
+                        <h2 class="text-center text-white fw-bold py-5 
+                        me-4 m-auto fs-1">Contacto</h2>             
+                    </div>    
+                </div>
             </div>
         </div>
-    </div>
+    </header>
     <!--SECCION CONTACTO-->
-    <div class="fondo-gradient">
-        <div class="container w-75">
-            <div class="row align-items-stretch">
-                <div class="fw-bold text-center fs-2 my-4 txt-blanco">
-                    Puede Contactarnos
+    <div class="fondo-gradient py-5">
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="fw-bold text-center pb-4 fs-2 txt-blanco">
+                        Puede Contactarnos
+                    </div>
                 </div>
-                <div class="card rounded">
-                    <div class="row">
-                        <div class="col bg-white bg col-md-5 col-lg-5 col-xl-6">
-                            <h3 class="fw-bold fs-3 text-secondary pt-5 m-auto">
-                                Envíanos un mensaje
-                            </h3>
-                            <form action="#">
-                                <div class="mb-2 ps-3">
-                                    <label for="nombre"></label>
-                                    <input type="text" name="nombre" id="nombre" placeholder=" Nombre y Apellido" class="form-control form-border-contacto">
+            </div>
+            <!-- FORM CONTACTO -->
+            <div class="row justify-content-center">
+                <div class="col-12 col-xl-10">
+                    <div class="card pb-4">
+                        <div class="card-body px-xl-5">
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <h3 class="fs-3 txt-oscuro pt-4">
+                                        Envíanos un mensaje
+                                    </h3>
+                                    <form action="#">
+                                        <div class="mb-2">
+                                            <label for="nombre"></label>
+                                            <input type="text" name="nombre" id="nombre" placeholder=" Nombre y Apellido" class="form-control form-border-contacto">
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="correo"></label>
+                                            <input type="email" name="correo" id="correo" placeholder=" Correo" class="form-control form-border-contacto">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label for="tel"></label>
+                                            <input type="tel" name="tel" id="tel" placeholder=" Teléfono" class="form-control form-border-contacto">
+                                        </div>
+                                        <div class="mb-5">
+                                            <textarea name="mensaje" id="mensaje"  placeholder=" Mensaje " class="form-control form-border-contacto"></textarea>
+                                        </div>
+                                        <div class="d-grid mt-5">
+                                            <button type="submit" class="btn bg-amarillo txt-verde rounded-pill fw-bold fs-5 mb-2 form-border-radius">
+                                                Enviar
+                                            </button>
+                                        </div>
+                                    </form>
                                 </div>
-                                <div class="mb-2 ps-3">
-                                    <label for="correo"></label>
-                                    <input type="email" name="correo" id="correo" placeholder=" Correo" class="form-control form-border-contacto">
-                                </div>
-                                <div class="mb-4 ps-3">
-                                    <label for="tel"></label>
-                                    <input type="tel" name="tel" id="tel" placeholder=" Teléfono" class="form-control form-border-contacto">
-                                </div>
-                                <div class="mb-5 ps-3">
-                                    <textarea name="mensaje" id="mensaje"  placeholder=" Mensaje " class="form-control form-border-contacto"></textarea>
-                                </div>
-                                <div class="d-grid mt-5 ps-3">
-                                    <button type="submit" class="btn bg-amarillo txt-verde rounded-pill fw-bold fs-5 mb-2 form-border-radius">
-                                        Enviar
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col bg-white mb-3">
-                            <div class="text-end ms-lg-5">
-                                <h3 class="fw-bold fs-3 text-secondary pt-5 mb-3 m-auto"> Información</h3>
-                                <h5 class="text-center pt-1 mb-2">No dude en contactar con nosotros por estos medios</h5>
-
-                                <div class="row d-block">
-                                    <div class="col pt-4 ms-3 text-start fs-5">
-                                        <i class="fas fa-phone txt-verde fs-3 me-3"></i> 021584219 / 021590590
-                                    </div>
-                                    <div class="col pt-4 ms-3 text-start fs-5">
-                                        <i class="fas fa-envelope txt-verde fs-3 me-3"></i> info@reyhani.com.py
-                                    </div>
-                                    <div class="col pt-4 ms-3 text-start fs-5">
-                                        <i class="fa-solid fa-location-dot txt-verde fs-3 me-3"></i> San Lorenzo <br>
-                                        Avda. Avelino Martínez N° 9 <br>
-                                        casi Avda del Agrónomo
-                                    </div>
-                                    <div class="row d-flex justify-content-center m-auto">
-                                        <div class="fs-4 txt-verde mb-5 text-center fw-bold mt-4 final-border">
-                                            Reyhani
+                                <div class="col-12 col-lg-6">
+                                    <div class="ms-lg-5">
+                                        <h3 class="txt-oscuro mb-3 pt-4"> Información</h3>
+                                        <h5 class="text-center pt-1">No dude en contactar con nosotros por estos medios</h5>
+                                        <div class="row">
+                                            <div class="col-12 pt-4 text-start d-flex">
+                                                <i class="fas fa-phone txt-verde fs-3 me-4"></i>
+                                                <span>021584219 / 021590590</span>
+                                            </div>
+                                            <div class="col-12 pt-4 text-start d-flex">
+                                                <i class="fas fa-envelope txt-verde fs-3 me-4"></i>
+                                                <span>info@reyhani.com.py</span>
+                                            </div>
+                                            <div class="col-12 pt-4 text-start d-flex">
+                                                <i class="fa-solid fa-location-dot txt-verde fs-3 me-4"></i> 
+                                                <span>
+                                                    San Lorenzo
+                                                    Avda. Avelino Martínez N° 9
+                                                    casi Avda del Agrónomo
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-center mt-5">
+                                            <img src="./lib/img/logo.jpg" width="150px">
                                         </div>
                                     </div>
                                 </div>
@@ -190,22 +198,17 @@
                     </div>
                 </div>
             </div>
+            <!-- / FORM CONTACTO -->
         </div>
+    </div>
     <!-- / SECCION CONTACTO -->
-
-
-
 
     <!-- SECCION MAPA -->
     <div class="contact-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.853286226079!2d-57.5196110855468!3d-25.342703735655366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945dae8fbf5cb0e1%3A0x622356ceb103d653!2sREYHANI%20SRL!5e0!3m2!1ses!2spy!4v1647003747226!5m2!1ses!2spy" width="600" height="auto" style="border:0;" allowfullscreen="" loading="lazy" >
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.853286226079!2d-57.5196110855468!3d-25.342703735655366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945dae8fbf5cb0e1%3A0x622356ceb103d653!2sREYHANI%20SRL!5e0!3m2!1ses!2spy!4v1647003747226!5m2!1ses!2spy" height="auto" style="border:0;" allowfullscreen="" loading="lazy" >
         </iframe>
     </div>
     <!-- / SECCION MAPA -->
-
-
-
-
 
     <footer class="bg-dark">
         <div class="row p-0 m-0">
@@ -294,7 +297,7 @@
             }
             else if( window.innerWidth < 1500 )
             { console.log('ingresa')
-                if( window.scrollY.toFixed(0) >= 620  )
+                if( window.scrollY.toFixed(0) >= 300  )
                 {
                     navBar.style.position = 'fixed';
                     navBar.style.width = '100%';
