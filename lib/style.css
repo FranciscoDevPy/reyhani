@@ -16,7 +16,14 @@
 
 .txt-amarillo{ color: #EBEB20; }
 
+.txt-negro{
+    color: #161b1d;
+}
+
 /* colores de fondo */
+.bg-gradiente{
+    background: linear-gradient(132deg, #eeff00 0%, #45b107 66%);
+}
 .bg-dark{ background-color:#22302F; }
 .bg-dark-claro{ background-color:#273236; }
 
@@ -368,9 +375,8 @@ a.nav-link:hover{
     background-image: url(./img/reyhani-edificio.jfif);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 70%;
-    height: 27vh;
-    
+    background-position: center -435px;
+    height: 200px;
 }
 
 .success{
@@ -422,11 +428,10 @@ a.nav-link:hover{
 }
 
 .nosotros,
-.historia, h3{
+.historia{
     text-align: center;
     justify-content: center;
     align-items: center;
-
 }
 .fondo-gradient{   
     background: #f2ff3c;
