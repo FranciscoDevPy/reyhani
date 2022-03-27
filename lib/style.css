@@ -30,6 +30,7 @@
 .bg-amarillo{ background-color: #EBEB20; }
 
 .bg-verde{ background-color: #159F23; }
+.bg-blanco{ background-color: #fff; }
 
 /* colores de iconos */
 .icono-blanco{ color: white; }
@@ -142,7 +143,7 @@
     font-weight: 500;
     border-radius: 30px;
     padding: 6px 10px;
-    box-shadow: -2px 4px 7px 0px #393b3a8c;
+    box-shadow: -2px 4px 7px 0px #5b697d54;
     font-size: 15px;
 }
 
@@ -173,7 +174,6 @@
 }
 .card-footer{
     border-top: none;
-    background-color: #fff;
 }
 
 .titulo-principal{
@@ -208,6 +208,11 @@
     border-radius: 25px;
     border: solid 1px #159F23;
     box-shadow: 0px 0px 3px 0px #21ff00;
+}
+
+.form-border-radius-gray{
+    border-radius: 25px;
+    border: solid 1px #ddd;
 }
 .cart-search-top{
     position: relative;
@@ -278,6 +283,10 @@
 
 .producto-principal-img-02{
     background-image: url(./img/img-02.jpeg);
+}
+
+.producto-imagen{
+    max-width: 500px;
 }
 
 @media( min-width: 576px ){
@@ -371,12 +380,13 @@ a.nav-link:hover{
     color:#ffff00!important;
 }
 
-.home {
+.seccion-header{
     background-image: url(./img/reyhani-edificio.jfif);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center -435px;
-    height: 200px;
+    background-position: center -80px;
+    height: 100px;
+    margin-top: 59px;
 }
 
 .success{
@@ -458,6 +468,26 @@ a.nav-link:hover{
     width: 500px;   
     }
 }
+
+@media (min-width: 500px) {
+    .seccion-header{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center -80px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 980px) {
+    .seccion-header{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        margin-top: 0;
+    }
+}
+
 @media (max-width: 495px) {
     .bg-text{
     display: flex;

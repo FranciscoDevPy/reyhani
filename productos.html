@@ -12,13 +12,12 @@
         rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
         crossorigin="anonymous">
-    <!-- FONT-AWESOME 6 -->
+    <!-- FONT-AWESOME 5 -->
     <link 
         rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
-        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
-        crossorigin="anonymous" 
-        referrerpolicy="no-referrer" />  
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" 
+        integrity="sha512-rqQltXRuHxtPWhktpAZxLHUVJ3Eombn3hvk9PHjV/N5DMUYnzKPC1i3ub0mEXgFzsaZNeJcoE0YHq0j/GFsdGg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />  
     <!-- Estilo -->
     <link rel="stylesheet" href="./lib/style.css">
     <link rel="shortcut icon" href="./lib/img/favicon.ico" type="image/x-icon">
@@ -90,10 +89,10 @@
                     </span>
                     <div class="navbar-text mt-3 redes-text-icon d-lg-none">
                             <span class="redes-contenedor-icono" >
-                                <a href="" class="mx-2">
+                                <a href="" class="mx-2 link">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
-                                <a href="" class="mx-2" >
+                                <a href="" class="mx-2 link" >
                                     <i class="fab fa-instagram-square"></i>
                                 </a>
                             </span>
@@ -102,10 +101,10 @@
                             </small>                        
                     </div>
                     <div class="navbar-text d-none d-lg-block redes-text-icon">
-                        <a href="" class="mx-2">
+                        <a href="" class="mx-2 link">
                             <i class="fab fa-facebook-f pt-0 pt-lg-2"></i>
                         </a>
-                        <a href="" class="mx-2 ms-lg-2 me-lg-0" >
+                        <a href="" class="mx-2 ms-lg-2 me-lg-0 link" >
                             <i class="fab fa-instagram-square pt-0 pt-lg-2"></i>
                         </a>                       
                     </div>
@@ -113,13 +112,14 @@
             </div>
         </nav>
         <!-- SECCION HEADER PRODUCTOS -->
-        <div class="img-fluid home seccion">
-            <div class="container">
-                <div class="row">
-                    <div class="jumbotron bg-jumbotron ">
-                        <h2 class="text-center text-white fw-bold py-5 
-                        me-4 m-auto fs-1">Productos</h2>             
-                    </div>    
+        <div class="seccion-header">
+            <div class="container h-100">
+                <div class="row justify-content-center align-items-center h-100">
+                    <div class="col-12">
+                        <h2 class="text-center text-white fw-bold" >
+                            Productos
+                        </h2> 
+                    </div>
                 </div>
             </div>
         </div>
@@ -134,7 +134,7 @@
                         <div class="col-lg-12">
                             <div class="card card-productos-categoria py-0 py-lg-4 card-sombra">
                                 <div class="card-body">
-                                    <input type="text" name="buscar" id="buscar" class="form-control form-border-radius"
+                                    <input type="text" name="buscar" id="buscar" class="form-control form-border-radius-gray"
                                         placeholder="Buscar Producto">
                                 </div>
                             </div>
@@ -174,15 +174,19 @@
                                 <div class="card-body">
                                     <img class="card-producto-img" src="./lib/img/img-01.jpeg">
                                 </div>
-                                <div class="card-footer">
+                                <div class="card-footer bg-blanco">
                                     <div class="card-producto-nombre txt-dark">Balanced</div>
                                     <div class="card-producto-precio txt-verde">Gs 150.000</div>
                                     <div class="row">
                                         <div class="col-12 p-1 d-flex justify-content-center">
-                                            <a href="./producto.html" class="texto-blanco enlace-a-producto">
+                                            <a href="./producto.html" class="texto-blanco enlace-a-producto link">
                                                 <span class="btn btn-card-verde">
-                                                    <i class="fa-brands fa-whatsapp"></i>
-                                                    Solicitar
+                                                    <i class="fas fa-search-plus"></i>
+                                                    Ver
+                                                </span>
+                                                <span class="btn btn-card-verde">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                    Agregar
                                                 </span>
                                             </a>
                                         </div>
@@ -195,15 +199,19 @@
                                 <div class="card-body">
                                     <img class="card-producto-img" src="./lib/img/img-01.jpeg">
                                 </div>
-                                <div class="card-footer">
+                                <div class="card-footer bg-blanco">
                                     <div class="card-producto-nombre txt-dark">Balanced</div>
                                     <div class="card-producto-precio txt-verde">Gs 150.000</div>
                                     <div class="row">
                                         <div class="col-12 p-1 d-flex justify-content-center">
-                                            <a href="./producto.html" class="texto-blanco enlace-a-producto">
+                                            <a href="./producto.html" class="texto-blanco enlace-a-producto link">
                                                 <span class="btn btn-card-verde">
-                                                    <i class="fa-brands fa-whatsapp"></i>
-                                                    Solicitar
+                                                    <i class="fas fa-search-plus"></i>
+                                                    Ver
+                                                </span>
+                                                <span class="btn btn-card-verde">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                    Agregar
                                                 </span>
                                             </a>
                                         </div>
@@ -216,15 +224,19 @@
                                 <div class="card-body">
                                     <img class="card-producto-img" src="./lib/img/img-01.jpeg">
                                 </div>
-                                <div class="card-footer">
+                                <div class="card-footer bg-blanco">
                                     <div class="card-producto-nombre txt-dark">Balanced</div>
                                     <div class="card-producto-precio txt-verde">Gs 150.000</div>
                                     <div class="row">
                                         <div class="col-12 p-1 d-flex justify-content-center">
-                                            <a href="./producto.html" class="texto-blanco enlace-a-producto">
+                                            <a href="./producto.html" class="texto-blanco enlace-a-producto link">
                                                 <span class="btn btn-card-verde">
-                                                    <i class="fa-brands fa-whatsapp"></i>
-                                                    Solicitar
+                                                    <i class="fas fa-search-plus"></i>
+                                                    Ver
+                                                </span>
+                                                <span class="btn btn-card-verde">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                    Agregar
                                                 </span>
                                             </a>
                                         </div>
@@ -237,15 +249,19 @@
                                 <div class="card-body">
                                     <img class="card-producto-img" src="./lib/img/img-01.jpeg">
                                 </div>
-                                <div class="card-footer">
+                                <div class="card-footer bg-blanco">
                                     <div class="card-producto-nombre txt-dark">Balanced</div>
                                     <div class="card-producto-precio txt-verde">Gs 150.000</div>
                                     <div class="row">
                                         <div class="col-12 p-1 d-flex justify-content-center">
-                                            <a href="./producto.html" class="texto-blanco enlace-a-producto">
+                                            <a href="./producto.html" class="texto-blanco enlace-a-producto link">
                                                 <span class="btn btn-card-verde">
-                                                    <i class="fa-brands fa-whatsapp"></i>
-                                                    Solicitar
+                                                    <i class="fas fa-search-plus"></i>
+                                                    Ver
+                                                </span>
+                                                <span class="btn btn-card-verde">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                    Agregar
                                                 </span>
                                             </a>
                                         </div>
@@ -287,11 +303,11 @@
                             <span>Navegación</span>
                         </h5>
                         <ul class="lista-navegacion pt-2 ps-xl-0" >
-                            <li><i class="fa-solid fa-chevron-right me-3 txt-amarillo"></i>Inicio</li>
-                            <li><i class="fa-solid fa-chevron-right me-3 txt-amarillo"></i>La empresa</li>
-                            <li><i class="fa-solid fa-chevron-right me-3 txt-amarillo"></i>Productos</li>
-                            <li><i class="fa-solid fa-chevron-right me-3 txt-amarillo"></i>Servicios</li>
-                            <li><i class="fa-solid fa-chevron-right me-3 txt-amarillo"></i>Contacto</li>
+                            <li><i class="fas fa-chevron-right me-3 txt-amarillo"></i>Inicio</li>
+                            <li><i class="fas fa-chevron-right me-3 txt-amarillo"></i>La empresa</li>
+                            <li><i class="fas fa-chevron-right me-3 txt-amarillo"></i>Productos</li>
+                            <li><i class="fas fa-chevron-right me-3 txt-amarillo"></i>Servicios</li>
+                            <li><i class="fas fa-chevron-right me-3 txt-amarillo"></i>Contacto</li>
                         </ul>
                     </div>
                     <div class="col-12 col-xl-4 mt-5 txt-blanco p-xl-0">
@@ -345,8 +361,8 @@
                 }
             }
             else if( window.innerWidth < 1500 )
-            { console.log('ingresa')
-                if( window.scrollY.toFixed(0) >= 620  )
+            {
+                if( window.scrollY.toFixed(0) >= 300  )
                 {
                     navBar.style.position = 'fixed';
                     navBar.style.width = '100%';
@@ -356,7 +372,7 @@
             }
             else
             {
-                if( window.scrollY.toFixed(0) >= 750  )
+                if( window.scrollY.toFixed(0) >= 400  )
                 {
                     navBar.style.position = 'fixed';
                     navBar.style.width = '100%';

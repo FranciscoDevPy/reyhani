@@ -12,13 +12,12 @@
         rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
         crossorigin="anonymous">
-    <!-- FONT-AWESOME 6 -->
+    <!-- FONT-AWESOME 5 -->
     <link 
         rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
-        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
-        crossorigin="anonymous" 
-        referrerpolicy="no-referrer" />  
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" 
+        integrity="sha512-rqQltXRuHxtPWhktpAZxLHUVJ3Eombn3hvk9PHjV/N5DMUYnzKPC1i3ub0mEXgFzsaZNeJcoE0YHq0j/GFsdGg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Estilo -->
     <link rel="stylesheet" href="./lib/style.css">
     <link rel="shortcut icon" href="./lib/img/favicon.ico" type="image/x-icon">
@@ -90,10 +89,10 @@
                     </span>
                     <div class="navbar-text mt-3 redes-text-icon d-lg-none">
                             <span class="redes-contenedor-icono" >
-                                <a href="" class="mx-2">
+                                <a href="" class="mx-2 link">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
-                                <a href="" class="mx-2" >
+                                <a href="" class="mx-2 link" >
                                     <i class="fab fa-instagram-square"></i>
                                 </a>
                             </span>
@@ -102,26 +101,27 @@
                             </small>                        
                     </div>
                     <div class="navbar-text d-none d-lg-block redes-text-icon">
-                        <a href="" class="mx-2">
+                        <a href="" class="mx-2 link">
                             <i class="fab fa-facebook-f pt-0 pt-lg-2"></i>
                         </a>
-                        <a href="" class="mx-2 ms-lg-2 me-lg-0" >
+                        <a href="" class="mx-2 ms-lg-2 me-lg-0 link" >
                             <i class="fab fa-instagram-square pt-0 pt-lg-2"></i>
                         </a>                       
                     </div>
                 </div>
             </div>
         </nav>
-        <div class="img-fluid home seccion">
-            <div class="container">
-                <div class="row">
-                    <div class="jumbotron bg-jumbotron ">
-                        <h2 class="text-center text-white fw-bold py-5 
-                        me-4 m-auto fs-1">Contacto</h2>             
-                    </div>    
+        <section class="seccion-header">
+            <div class="container h-100">
+                <div class="row justify-content-center align-items-center h-100">
+                    <div class="col-12">
+                        <h2 class="text-center text-white fw-bold" >
+                            Contacto
+                        </h2> 
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </header>
     <!--SECCION CONTACTO-->
     <div class="fondo-gradient py-5">
@@ -180,7 +180,7 @@
                                                 <span>info@reyhani.com.py</span>
                                             </div>
                                             <div class="col-12 pt-4 text-start d-flex">
-                                                <i class="fa-solid fa-location-dot txt-verde fs-3 me-4"></i> 
+                                                <i class="fas fa-map-marker-alt txt-verde fs-3 me-4"></i>
                                                 <span>
                                                     San Lorenzo
                                                     Avda. Avelino Martínez N° 9
@@ -238,11 +238,11 @@
                             <span>Navegación</span>
                         </h5>
                         <ul class="lista-navegacion pt-2 ps-xl-0" >
-                            <li><i class="fa-solid fa-chevron-right me-3 txt-amarillo"></i>Inicio</li>
-                            <li><i class="fa-solid fa-chevron-right me-3 txt-amarillo"></i>La empresa</li>
-                            <li><i class="fa-solid fa-chevron-right me-3 txt-amarillo"></i>Productos</li>
-                            <li><i class="fa-solid fa-chevron-right me-3 txt-amarillo"></i>Servicios</li>
-                            <li><i class="fa-solid fa-chevron-right me-3 txt-amarillo"></i>Contacto</li>
+                            <li><i class="fas fa-chevron-right me-3 txt-amarillo"></i>Inicio</li>
+                            <li><i class="fas fa-chevron-right me-3 txt-amarillo"></i>La empresa</li>
+                            <li><i class="fas fa-chevron-right me-3 txt-amarillo"></i>Productos</li>
+                            <li><i class="fas fa-chevron-right me-3 txt-amarillo"></i>Servicios</li>
+                            <li><i class="fas fa-chevron-right me-3 txt-amarillo"></i>Contacto</li>
                         </ul>
                     </div>
                     <div class="col-12 col-xl-4 mt-5 txt-blanco p-xl-0">
@@ -296,7 +296,7 @@
                 }
             }
             else if( window.innerWidth < 1500 )
-            { console.log('ingresa')
+            {
                 if( window.scrollY.toFixed(0) >= 300  )
                 {
                     navBar.style.position = 'fixed';
@@ -307,7 +307,7 @@
             }
             else
             {
-                if( window.scrollY.toFixed(0) >= 750  )
+                if( window.scrollY.toFixed(0) >= 400  )
                 {
                     navBar.style.position = 'fixed';
                     navBar.style.width = '100%';
